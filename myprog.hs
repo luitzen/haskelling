@@ -1,3 +1,3 @@
 -- commentzz
 
-main = putStrLn "hi there matey"
+main = putStrLn "hi there matey boy"
