@@ -1,5 +1,7 @@
 import System.Random
 
+-- comment
+
 main = do
   gen <- newStdGen
   let ns = randoms gen :: [Int]
