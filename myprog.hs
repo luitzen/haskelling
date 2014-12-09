@@ -1,3 +1,6 @@
--- commentzz
+import System.Random
 
-main = putStrLn ( "hi there matey boy" ++ ", sup????" )
+main = do
+  gen <- newStdGen
+  let ns = randoms gen :: [Int]
+  print $ take 10 ns
