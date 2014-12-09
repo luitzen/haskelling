@@ -1,6 +1,6 @@
 import System.Random
 
--- comment
+-- commentz
 
 main = do
   gen <- newStdGen
